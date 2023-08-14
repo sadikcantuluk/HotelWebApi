@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FtIWCLsWqMsM5zOUyTLguslUyoEzVE/FWfq5t+1g2O2nsqBYX7zW/G3fsEb4wHy3zgaGkXBPJH7mrmi10D/XjQ==",
+  "dgSpecHash": "pgSDJioYUSSR9zy5K60REpf/alLQTOZx5Ype3Nv7crH4ylkcmQnsA3UxsGTa1uezpXGnRq5lTn/Th8hS+4M58A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sadik\\OneDrive\\Masaüstü\\Yeni klasör\\GİTHUB\\HotelProject\\Frontend\\HotelProject.WebUI\\HotelProject.WebUI.csproj",
+  "projectFilePath": "C:\\Users\\sadik\\OneDrive\\Masaüstü\\Yeni klasör\\HotelProject\\Frontend\\HotelProject.WebUI\\HotelProject.WebUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sadik\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\sadik\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

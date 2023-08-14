@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sadik\\OneDrive\\Masaüstü\\Yeni klasör\\GİTHUB\\HotelProject\\Frontend\\HotelProject.WebUI\\HotelProject.WebUI.csproj": {}
+    "C:\\Users\\sadik\\OneDrive\\Masaüstü\\Yeni klasör\\HotelProject\\Frontend\\HotelProject.WebUI\\HotelProject.WebUI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sadik\\OneDrive\\Masaüstü\\Yeni klasör\\GİTHUB\\HotelProject\\Frontend\\HotelProject.WebUI\\HotelProject.WebUI.csproj": {
+    "C:\\Users\\sadik\\OneDrive\\Masaüstü\\Yeni klasör\\HotelProject\\Frontend\\HotelProject.WebUI\\HotelProject.WebUI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sadik\\OneDrive\\Masaüstü\\Yeni klasör\\GİTHUB\\HotelProject\\Frontend\\HotelProject.WebUI\\HotelProject.WebUI.csproj",
+        "projectUniqueName": "C:\\Users\\sadik\\OneDrive\\Masaüstü\\Yeni klasör\\HotelProject\\Frontend\\HotelProject.WebUI\\HotelProject.WebUI.csproj",
         "projectName": "HotelProject.WebUI",
-        "projectPath": "C:\\Users\\sadik\\OneDrive\\Masaüstü\\Yeni klasör\\GİTHUB\\HotelProject\\Frontend\\HotelProject.WebUI\\HotelProject.WebUI.csproj",
+        "projectPath": "C:\\Users\\sadik\\OneDrive\\Masaüstü\\Yeni klasör\\HotelProject\\Frontend\\HotelProject.WebUI\\HotelProject.WebUI.csproj",
         "packagesPath": "C:\\Users\\sadik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sadik\\OneDrive\\Masaüstü\\Yeni klasör\\GİTHUB\\HotelProject\\Frontend\\HotelProject.WebUI\\obj\\",
+        "outputPath": "C:\\Users\\sadik\\OneDrive\\Masaüstü\\Yeni klasör\\HotelProject\\Frontend\\HotelProject.WebUI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sadik\\AppData\\Roaming\\NuGet\\NuGet.Config",
