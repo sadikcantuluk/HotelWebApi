@@ -1,0 +1,32 @@
+﻿@model HotelProject.WebUI.Models.Staff.UpdateStaffViewModel
+@{
+    ViewData["Title"] = "UpdateStaff";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Personel Güncelleme Sayfası</h1>
+
+<form method="post">
+    <input type="hidden" asp-for="StaffId"></input>
+    <label>Personel Ad</label>
+    <input type="text" asp-for=Name class="form-control"></input>
+    <br />
+    <label>Personel Ünvan</label>
+    <input type="text" asp-for=Title class="form-control"></input>
+    <br />
+    <label>Personel Resim</label>
+    <input type="text" asp-for=Image class="form-control"></input>
+    <br />
+    <label>Personel Socila Media 1</label>
+    <input type="text" asp-for=ScialMedia1 class="form-control"></input>
+    <br />
+    <label>Personel Socila Media 2</label>
+    <input type="text" asp-for=ScialMedia2 class="form-control"></input>
+    <br />
+    <label>Personel Socila Media 3</label>
+    <input type="text" asp-for=ScialMedia3 class="form-control"></input>
+    <br />
+    <button class="btn btn-outline-success">Personeli Kaydet</button>
+</form>
+
+
