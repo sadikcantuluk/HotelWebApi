@@ -1,0 +1,24 @@
+﻿@model HotelProject.WebUI.Models.Testimonial.UpdateTestimonialViewModel
+@{
+    ViewData["Title"] = "UpdateTestimonial";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Referans Güncelleme Sayfası</h1>
+<form method="post">
+    <input type="hidden" class="form-control" asp-for="TestimonialID"></input>
+    <label>Referans Adı</label>
+    <input type="text" class="form-control" asp-for="Name"></input>
+    <br />
+    <label>Referans Ünvan</label>
+    <input type="text" class="form-control" asp-for="Title"></input>
+    <br />
+    <label>Referans Açıklama</label>
+    <input type="text" class="form-control" asp-for="Description"></input>
+    <br />
+    <label>Referans Logo</label>
+    <input type="text" class="form-control" asp-for="Image"></input>
+    <br />
+    <button class="btn btn-success">Referansı Kaydet</button>
+</form>
+
