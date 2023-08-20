@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "tZet9Ra+1G1r3mbfBD1wJ52M4QZ955rfqmHKfVdkXQgfghOtJPcEnaU3ddCfjh+vTLFFDKjbBRHyrr7A0Hin8g==",
+  "dgSpecHash": "ZQ1+kyRKv6BM0FEjjbjaRcF/tOsKtl+ohKgU9NTbDlsgFes2dnq+xEeItPDb6dUXsBVgtfFwp/8waqCRv7Lnug==",
   "success": true,
   "projectFilePath": "C:\\Users\\sadik\\OneDrive\\Masaüstü\\Yeni klasör\\HotelProject\\Frontend\\HotelProject.WebUI\\HotelProject.WebUI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\sadik\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\sadik\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\sadik\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\sadik\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\sadik\\.nuget\\packages\\humanizer.core.af\\2.14.1\\humanizer.core.af.2.14.1.nupkg.sha512",
@@ -90,8 +92,8 @@
     "C:\\Users\\sadik\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\sadik\\.nuget\\packages\\microsoft.extensions.logging\\5.0.0\\microsoft.extensions.logging.5.0.0.nupkg.sha512",
     "C:\\Users\\sadik\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
-    "C:\\Users\\sadik\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
-    "C:\\Users\\sadik\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512",
+    "C:\\Users\\sadik\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\sadik\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
     "C:\\Users\\sadik\\.nuget\\packages\\microsoft.identity.client\\4.14.0\\microsoft.identity.client.4.14.0.nupkg.sha512",
     "C:\\Users\\sadik\\.nuget\\packages\\microsoft.identitymodel.jsonwebtokens\\5.6.0\\microsoft.identitymodel.jsonwebtokens.5.6.0.nupkg.sha512",
     "C:\\Users\\sadik\\.nuget\\packages\\microsoft.identitymodel.logging\\5.6.0\\microsoft.identitymodel.logging.5.6.0.nupkg.sha512",
