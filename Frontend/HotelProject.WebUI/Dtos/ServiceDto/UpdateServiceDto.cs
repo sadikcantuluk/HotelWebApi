@@ -9,7 +9,7 @@ namespace HotelProject.WebUI.Dtos.ServiceDto
         [Required(ErrorMessage = "Hizmet iconu girin !")]
         public string ServiceIcon { get; set; }
 
-        [Required(ErrorMessage = "Hizmet iconu girin !")]
+        [Required(ErrorMessage = "Hizmet adını girin !")]
         [StringLength(50, ErrorMessage = "50 karakteri geçmemeli !")]
         public string Title { get; set; }
 

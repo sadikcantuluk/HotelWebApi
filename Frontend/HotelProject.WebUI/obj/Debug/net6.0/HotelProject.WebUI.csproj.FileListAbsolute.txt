@@ -322,3 +322,6 @@ C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\HotelProject\Frontend\HotelProje
 C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\HotelProject\Frontend\HotelProject.WebUI\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\HotelProject\Frontend\HotelProject.WebUI\bin\Debug\net6.0\HotelProject.EntityLayer.dll
 C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\HotelProject\Frontend\HotelProject.WebUI\bin\Debug\net6.0\HotelProject.EntityLayer.pdb
+C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\HotelProject\Frontend\HotelProject.WebUI\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\HotelProject\Frontend\HotelProject.WebUI\bin\Debug\net6.0\HotelProject.DataAccessLayer.dll
+C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\HotelProject\Frontend\HotelProject.WebUI\bin\Debug\net6.0\HotelProject.DataAccessLayer.pdb

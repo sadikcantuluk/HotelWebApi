@@ -156,3 +156,4 @@ C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\HotelProject\ApiConsume\HotelPro
 C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\HotelProject\ApiConsume\HotelProjectWebApiConsume\obj\Debug\net6.0\ref\HotelProjectWebApiConsume.dll
 C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\HotelProject\ApiConsume\HotelProjectWebApiConsume\bin\Debug\net6.0\AutoMapper.dll
 C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\HotelProject\ApiConsume\HotelProjectWebApiConsume\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\HotelProject\ApiConsume\HotelProjectWebApiConsume\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
