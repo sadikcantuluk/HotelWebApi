@@ -4539,6 +4539,21 @@
           "bin/placeholder/HotelProject.DataAccessLayer.dll": {}
         }
       },
+      "HotelProject.DtoLayer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "HotelProject.EntityLayer": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "5.0.17",
+          "Microsoft.EntityFrameworkCore.SqlServer": "5.0.17"
+        },
+        "compile": {
+          "bin/placeholder/HotelProject.DtoLayer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HotelProject.DtoLayer.dll": {}
+        }
+      },
       "HotelProject.EntityLayer/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -12599,6 +12614,11 @@
       "path": "../../ApiConsume/HotelProject.DataAccessLayer/HotelProject.DataAccessLayer.csproj",
       "msbuildProject": "../../ApiConsume/HotelProject.DataAccessLayer/HotelProject.DataAccessLayer.csproj"
     },
+    "HotelProject.DtoLayer/1.0.0": {
+      "type": "project",
+      "path": "../../ApiConsume/HotelProject.DtoLayer/HotelProject.DtoLayer.csproj",
+      "msbuildProject": "../../ApiConsume/HotelProject.DtoLayer/HotelProject.DtoLayer.csproj"
+    },
     "HotelProject.EntityLayer/1.0.0": {
       "type": "project",
       "path": "../../ApiConsume/HotelProject.EntityLayer/HotelProject.EntityLayer.csproj",
@@ -12610,6 +12630,7 @@
       "AutoMapper >= 12.0.1",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
       "HotelProject.DataAccessLayer >= 1.0.0",
+      "HotelProject.DtoLayer >= 1.0.0",
       "HotelProject.EntityLayer >= 1.0.0",
       "Microsoft.AspNetCore.Identity >= 2.2.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 5.0.13",
@@ -12649,6 +12670,9 @@
           "projectReferences": {
             "C:\\Users\\sadik\\OneDrive\\Masaüstü\\Yeni klasör\\HotelProject\\ApiConsume\\HotelProject.DataAccessLayer\\HotelProject.DataAccessLayer.csproj": {
               "projectPath": "C:\\Users\\sadik\\OneDrive\\Masaüstü\\Yeni klasör\\HotelProject\\ApiConsume\\HotelProject.DataAccessLayer\\HotelProject.DataAccessLayer.csproj"
+            },
+            "C:\\Users\\sadik\\OneDrive\\Masaüstü\\Yeni klasör\\HotelProject\\ApiConsume\\HotelProject.DtoLayer\\HotelProject.DtoLayer.csproj": {
+              "projectPath": "C:\\Users\\sadik\\OneDrive\\Masaüstü\\Yeni klasör\\HotelProject\\ApiConsume\\HotelProject.DtoLayer\\HotelProject.DtoLayer.csproj"
             },
             "C:\\Users\\sadik\\OneDrive\\Masaüstü\\Yeni klasör\\HotelProject\\ApiConsume\\HotelProject.EntityLayer\\HotelProject.EntityLayer.csproj": {
               "projectPath": "C:\\Users\\sadik\\OneDrive\\Masaüstü\\Yeni klasör\\HotelProject\\ApiConsume\\HotelProject.EntityLayer\\HotelProject.EntityLayer.csproj"
