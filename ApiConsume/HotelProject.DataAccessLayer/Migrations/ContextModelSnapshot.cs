@@ -160,6 +160,56 @@ namespace HotelProject.DataAccessLayer.Migrations
                     b.ToTable("AspNetUsers");
                 });
 
+            modelBuilder.Entity("HotelProject.EntityLayer.Concrete.Booking", b =>
+                {
+                    b.Property<int>("BookingID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("AdultCount")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ChildCount")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("Giriş")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("Mail")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("RoomCount")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("SpecialRequest")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Status")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("Çıkış")
+                        .HasColumnType("datetime2");
+
+                    b.HasKey("BookingID");
+
+                    b.ToTable("Bookings");
+                });
+
             modelBuilder.Entity("HotelProject.EntityLayer.Concrete.Room", b =>
                 {
                     b.Property<int>("RoomID")
