@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\HotelProject\Frontend\HotelProject.WebUI
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/sadik/OneDrive/Masaüstü/Yeni klasör/HotelProject/Frontend/HotelProject.WebUI/Views/BookingAdmin/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ0FkbWluXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/sadik/OneDrive/Masaüstü/Yeni klasör/HotelProject/Frontend/HotelProject.WebUI/Views/Booking/AddBooking.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ1xBZGRCb29raW5nLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 

@@ -52,5 +52,12 @@ namespace HotelProjectWebApiConsume.Controllers
             return Ok(value);
         }
 
+        [HttpPut("BookingStatusChangeApproved")]
+        public IActionResult BookingStatusChangeApproved(int id)
+        {
+            _bookingService.TBookingStatusChangeApproved(id);
+            return Ok();
+        }
+
     }
 }
