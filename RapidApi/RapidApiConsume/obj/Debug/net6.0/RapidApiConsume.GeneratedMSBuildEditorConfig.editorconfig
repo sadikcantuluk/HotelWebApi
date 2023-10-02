@@ -16,6 +16,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\HotelProject\RapidApi\RapidApiConsume
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/sadik/OneDrive/Masaüstü/Yeni klasör/HotelProject/RapidApi/RapidApiConsume/Views/BookingApiCityByID/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ0FwaUNpdHlCeUlEXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sadik/OneDrive/Masaüstü/Yeni klasör/HotelProject/RapidApi/RapidApiConsume/Views/BookingApiSearchLocation/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ0FwaVNlYXJjaExvY2F0aW9uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sadik/OneDrive/Masaüstü/Yeni klasör/HotelProject/RapidApi/RapidApiConsume/Views/BookingApi/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQm9va2luZ0FwaVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/sadik/OneDrive/Masaüstü/Yeni klasör/HotelProject/RapidApi/RapidApiConsume/Views/Exchange/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXhjaGFuZ2VcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
