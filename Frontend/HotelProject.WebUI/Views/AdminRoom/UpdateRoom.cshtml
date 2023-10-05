@@ -1,0 +1,39 @@
+﻿@model HotelProject.WebUI.Dtos.RoomDto.UpdateRoomDto
+@{
+    ViewData["Title"] = "UpdateRoom";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Oda Güncelleme Sayfası</h1>
+
+<form method="post">
+    <input type="hidden" asp-for="RoomID"></input>
+    <label>Oda Numarası</label>
+    <input type="text" asp-for=RoomNumber class="form-control"></input>
+    <br />
+    <label>Oda Görseli</label>
+    <input type="text" asp-for=RoomCoverImage class="form-control"></input>
+    <br />
+    <label>Fiyat</label>
+    <input type="text" asp-for=Price class="form-control"></input>
+    <br />
+    <label>Başlık</label>
+    <input type="text" asp-for=Title class="form-control"></input>
+    <br />
+    <label>Yatak Sayısı</label>
+    <input type="text" asp-for=BedCount class="form-control"></input>
+    <br />
+    <label>Banyo Sayısı</label>
+    <input type="text" asp-for=BathCount class="form-control"></input>
+    <br />
+    <label>Açıklama</label>
+    <input type="text" asp-for=Description class="form-control"></input>
+    <br />
+    <label>Wifi</label>
+    <input type="text" asp-for=Wifi class="form-control"></input>
+    <br />
+    <button class="btn btn-outline-success">Odayı Güncelle</button>
+</form>
+
+
+
