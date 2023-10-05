@@ -10,12 +10,15 @@
     <input type="hidden" asp-for="GuestID"></input>
     <label>Misafir Ad</label>
     <input type="text" asp-for=Name class="form-control"></input>
+    <span asp-validation-for="Name" class="text-danger"></span>
     <br />
     <label>Misafir Soyad</label>
     <input type="text" asp-for=SurName class="form-control"></input>
+    <span asp-validation-for="SurName" class="text-danger"></span>
     <br />
     <label>Misafir Şehir</label>
     <input type="text" asp-for=City class="form-control"></input>
+    <span asp-validation-for="City" class="text-danger"></span>
     <br />
     <button class="btn btn-outline-success">Misafiri Kaydet</button>
 </form>

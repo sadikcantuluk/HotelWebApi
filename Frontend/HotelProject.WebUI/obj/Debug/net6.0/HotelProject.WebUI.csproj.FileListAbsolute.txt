@@ -327,3 +327,7 @@ C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\HotelProject\Frontend\HotelProje
 C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\HotelProject\Frontend\HotelProject.WebUI\bin\Debug\net6.0\HotelProject.DataAccessLayer.pdb
 C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\HotelProject\Frontend\HotelProject.WebUI\bin\Debug\net6.0\HotelProject.DtoLayer.dll
 C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\HotelProject\Frontend\HotelProject.WebUI\bin\Debug\net6.0\HotelProject.DtoLayer.pdb
+C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\HotelProject\Frontend\HotelProject.WebUI\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\HotelProject\Frontend\HotelProject.WebUI\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\HotelProject\Frontend\HotelProject.WebUI\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net6.0\HotelProject.WebUI.MvcApplicationPartsAssemblyInfo.cs

@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "cc/fZbf5f/bJTxZ0cSRhzwQ4aKhT3U5tQPW1fEqOI8gGKBNSVDmvMNVVU66wv2hsi2kSqP/SN4JzdcKCXkTI7g==",
+  "dgSpecHash": "Yyb1uP+wVaWIJqHbluKu+HAiJli+2uAlwnXjOlu00YwupkdQJ8FgEk4h2/9OYWWYpc2pCgixS9w1Nk/PspsBBg==",
   "success": true,
   "projectFilePath": "C:\\Users\\sadik\\OneDrive\\Masaüstü\\Yeni klasör\\HotelProject\\ApiConsume\\HotelProjectWebApiConsume\\HotelProjectWebApiConsume.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sadik\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\sadik\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
+    "C:\\Users\\sadik\\.nuget\\packages\\fluentvalidation\\11.7.1\\fluentvalidation.11.7.1.nupkg.sha512",
+    "C:\\Users\\sadik\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\sadik\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.7.1\\fluentvalidation.dependencyinjectionextensions.11.7.1.nupkg.sha512",
     "C:\\Users\\sadik\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\sadik\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\sadik\\.nuget\\packages\\humanizer.core.af\\2.14.1\\humanizer.core.af.2.14.1.nupkg.sha512",
