@@ -1,0 +1,33 @@
+﻿@using HotelProject.WebUI.Dtos.AboutDto
+@model UpdateAboutDto
+@{
+    ViewData["Title"] = "UpdateAbout";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Hakkımızda Güncelleme Sayfası</h1>
+
+<form method="post">
+    <input type="hidden" asp-for="AboutID"></input>
+    <label>Başlık 1</label>
+    <input type="text" asp-for=Title1 class="form-control"></input>
+    <br />
+    <label>Başlık 2</label>
+    <input type="text" asp-for=Title2 class="form-control"></input>
+    <br />
+    <label>İçerik</label>
+    <input type="text" asp-for=Content class="form-control"></input>
+    <br />
+    <label>Oda Sayısı</label>
+    <input type="text" asp-for=RoomCount class="form-control"></input>
+    <br />
+    <label>Hizmet Sayısı</label>
+    <input type="text" asp-for=StaffCount class="form-control"></input>
+    <br />
+    <label>Müşteri Sayısı</label>
+    <input type="text" asp-for=CustomerCount class="form-control"></input>
+    <br />
+    <button class="btn btn-outline-success">Hakkımızda Kaydet</button>
+</form>
+
+
