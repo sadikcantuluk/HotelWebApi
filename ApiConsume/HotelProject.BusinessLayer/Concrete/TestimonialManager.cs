@@ -25,12 +25,12 @@ namespace HotelProject.BusinessLayer.Concrete
 
         public List<Testimonial> TGetAll()
         {
-            return _testimonialDal.GetAll();    
+            return _testimonialDal.GetAll();
         }
 
         public Testimonial TGetById(int id)
         {
-           return _testimonialDal.GetById(id);
+            return _testimonialDal.GetById(id);
         }
 
         public void TInsert(Testimonial entity)
