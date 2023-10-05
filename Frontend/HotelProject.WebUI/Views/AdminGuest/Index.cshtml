@@ -1,0 +1,35 @@
+﻿@using HotelProject.WebUI.Dtos.GuestDto
+@model List<ResultGuestDto>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Misafirler Sayfası</h1>
+
+<table class="table table-bordered">
+    <tr>
+        <th>#</th>
+        <th>Name</th>
+        <th>Surname</th>
+        <th>City</th>
+        <th>Sil</th>
+        <th>Güncelle</th>
+        <th>Detaylar</th>
+    </tr>
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@item.GuestID</td>
+            <td>@item.Name</td>
+            <td>@item.SurName</td>
+            <td>@item.City</td>
+            <td><a href="/AdminGuest/DeleteGuest/@item.GuestID" class="btn btn-danger">Sil</a></td>
+            <td><a href="/AdminGuest/UpdateGuest/@item.GuestID" class="btn btn-success">Güncelle</a></td>
+            <td><a href="#" class="btn btn-dark">Detay</a></td>
+        </tr>
+    }
+</table>
+<a href="/AdminGuest/AddGuest/" class="btn btn-info">Yeni Misafir Ekle</a>
+
+

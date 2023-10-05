@@ -1,0 +1,22 @@
+﻿@model HotelProject.WebUI.Dtos.GuestDto.CreateGuestDto
+@{
+    ViewData["Title"] = "AddGuest";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h1>Misafir Ekleme Sayfası</h1>
+
+<form method="post">
+    <label>Misafir Ad</label>
+    <input type="text" asp-for=Name class="form-control"></input>
+    <br />
+    <label>Misafir Soyad</label>
+    <input type="text" asp-for=SurName class="form-control"></input>
+    <br />
+    <label>Misafir Şehir</label>
+    <input type="text" asp-for=City class="form-control"></input>
+    <br />
+    <button class="btn btn-outline-success">Misafiri Kaydet</button>
+</form>
+
+
