@@ -49,6 +49,78 @@
       "PackagePath": "staticwebassets\\adminTheme\\css\\style.css.map"
     },
     {
+      "Id": "C:\\Users\\sadik\\OneDrive\\Masaüstü\\Yeni klasör\\HotelProject\\Frontend\\HotelProject.WebUI\\wwwroot\\adminTheme\\cssicon\\all.css",
+      "PackagePath": "staticwebassets\\adminTheme\\cssicon\\all.css"
+    },
+    {
+      "Id": "C:\\Users\\sadik\\OneDrive\\Masaüstü\\Yeni klasör\\HotelProject\\Frontend\\HotelProject.WebUI\\wwwroot\\adminTheme\\cssicon\\all.min.css",
+      "PackagePath": "staticwebassets\\adminTheme\\cssicon\\all.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sadik\\OneDrive\\Masaüstü\\Yeni klasör\\HotelProject\\Frontend\\HotelProject.WebUI\\wwwroot\\adminTheme\\cssicon\\brands.css",
+      "PackagePath": "staticwebassets\\adminTheme\\cssicon\\brands.css"
+    },
+    {
+      "Id": "C:\\Users\\sadik\\OneDrive\\Masaüstü\\Yeni klasör\\HotelProject\\Frontend\\HotelProject.WebUI\\wwwroot\\adminTheme\\cssicon\\brands.min.css",
+      "PackagePath": "staticwebassets\\adminTheme\\cssicon\\brands.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sadik\\OneDrive\\Masaüstü\\Yeni klasör\\HotelProject\\Frontend\\HotelProject.WebUI\\wwwroot\\adminTheme\\cssicon\\fontawesome.css",
+      "PackagePath": "staticwebassets\\adminTheme\\cssicon\\fontawesome.css"
+    },
+    {
+      "Id": "C:\\Users\\sadik\\OneDrive\\Masaüstü\\Yeni klasör\\HotelProject\\Frontend\\HotelProject.WebUI\\wwwroot\\adminTheme\\cssicon\\fontawesome.min.css",
+      "PackagePath": "staticwebassets\\adminTheme\\cssicon\\fontawesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sadik\\OneDrive\\Masaüstü\\Yeni klasör\\HotelProject\\Frontend\\HotelProject.WebUI\\wwwroot\\adminTheme\\cssicon\\regular.css",
+      "PackagePath": "staticwebassets\\adminTheme\\cssicon\\regular.css"
+    },
+    {
+      "Id": "C:\\Users\\sadik\\OneDrive\\Masaüstü\\Yeni klasör\\HotelProject\\Frontend\\HotelProject.WebUI\\wwwroot\\adminTheme\\cssicon\\regular.min.css",
+      "PackagePath": "staticwebassets\\adminTheme\\cssicon\\regular.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sadik\\OneDrive\\Masaüstü\\Yeni klasör\\HotelProject\\Frontend\\HotelProject.WebUI\\wwwroot\\adminTheme\\cssicon\\solid.css",
+      "PackagePath": "staticwebassets\\adminTheme\\cssicon\\solid.css"
+    },
+    {
+      "Id": "C:\\Users\\sadik\\OneDrive\\Masaüstü\\Yeni klasör\\HotelProject\\Frontend\\HotelProject.WebUI\\wwwroot\\adminTheme\\cssicon\\solid.min.css",
+      "PackagePath": "staticwebassets\\adminTheme\\cssicon\\solid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sadik\\OneDrive\\Masaüstü\\Yeni klasör\\HotelProject\\Frontend\\HotelProject.WebUI\\wwwroot\\adminTheme\\cssicon\\svg-with-js.css",
+      "PackagePath": "staticwebassets\\adminTheme\\cssicon\\svg-with-js.css"
+    },
+    {
+      "Id": "C:\\Users\\sadik\\OneDrive\\Masaüstü\\Yeni klasör\\HotelProject\\Frontend\\HotelProject.WebUI\\wwwroot\\adminTheme\\cssicon\\svg-with-js.min.css",
+      "PackagePath": "staticwebassets\\adminTheme\\cssicon\\svg-with-js.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sadik\\OneDrive\\Masaüstü\\Yeni klasör\\HotelProject\\Frontend\\HotelProject.WebUI\\wwwroot\\adminTheme\\cssicon\\v4-font-face.css",
+      "PackagePath": "staticwebassets\\adminTheme\\cssicon\\v4-font-face.css"
+    },
+    {
+      "Id": "C:\\Users\\sadik\\OneDrive\\Masaüstü\\Yeni klasör\\HotelProject\\Frontend\\HotelProject.WebUI\\wwwroot\\adminTheme\\cssicon\\v4-font-face.min.css",
+      "PackagePath": "staticwebassets\\adminTheme\\cssicon\\v4-font-face.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sadik\\OneDrive\\Masaüstü\\Yeni klasör\\HotelProject\\Frontend\\HotelProject.WebUI\\wwwroot\\adminTheme\\cssicon\\v4-shims.css",
+      "PackagePath": "staticwebassets\\adminTheme\\cssicon\\v4-shims.css"
+    },
+    {
+      "Id": "C:\\Users\\sadik\\OneDrive\\Masaüstü\\Yeni klasör\\HotelProject\\Frontend\\HotelProject.WebUI\\wwwroot\\adminTheme\\cssicon\\v4-shims.min.css",
+      "PackagePath": "staticwebassets\\adminTheme\\cssicon\\v4-shims.min.css"
+    },
+    {
+      "Id": "C:\\Users\\sadik\\OneDrive\\Masaüstü\\Yeni klasör\\HotelProject\\Frontend\\HotelProject.WebUI\\wwwroot\\adminTheme\\cssicon\\v5-font-face.css",
+      "PackagePath": "staticwebassets\\adminTheme\\cssicon\\v5-font-face.css"
+    },
+    {
+      "Id": "C:\\Users\\sadik\\OneDrive\\Masaüstü\\Yeni klasör\\HotelProject\\Frontend\\HotelProject.WebUI\\wwwroot\\adminTheme\\cssicon\\v5-font-face.min.css",
+      "PackagePath": "staticwebassets\\adminTheme\\cssicon\\v5-font-face.min.css"
+    },
+    {
       "Id": "C:\\Users\\sadik\\OneDrive\\Masaüstü\\Yeni klasör\\HotelProject\\Frontend\\HotelProject.WebUI\\wwwroot\\adminTheme\\email-compose.html",
       "PackagePath": "staticwebassets\\adminTheme\\email-compose.html"
     },

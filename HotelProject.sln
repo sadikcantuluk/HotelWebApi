@@ -27,7 +27,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RapidApiConsume", "RapidApi
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "JwtProject", "JwtProject", "{685AB3AD-0F3C-4FD5-99D7-32EA822D2E09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtApiProject", "JwtProject\JwtApiProject\JwtApiProject.csproj", "{F94309FF-219F-473F-AC21-240D99BF65D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JwtApiProject", "JwtProject\JwtApiProject\JwtApiProject.csproj", "{F94309FF-219F-473F-AC21-240D99BF65D9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
