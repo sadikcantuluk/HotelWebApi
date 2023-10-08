@@ -1,0 +1,48 @@
+﻿@using HotelProject.WebUI.Models.Mail
+@model AdminMailViewModel
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<form method="post" asp-action="Index" asp-controller="AdminMail">
+    <div class="row g-3">
+        <div class="col-md-6">
+            <div class="form-floating">
+                <label for="name">Alıcının Adı</label>
+                <br />
+                <input type="text" class="form-control" id="name" asp-for="RecieverName" placeholder="Alıcının Adı">
+            </div>
+            <br />
+        </div>
+        <div class="col-md-6">
+            <div class="form-floating">
+                <label for="email">Alıcının Email</label>
+                <br />
+                <input type="email" class="form-control" id="email" asp-for="RecieverMail" placeholder="Alıcının Email">
+            </div>
+            <br />
+        </div>
+        <div class="col-12">
+            <div class="form-floating">
+                <label for="subject">Konu</label>
+                <br />
+                <input type="text" class="form-control" id="subject" asp-for="Subject" placeholder="Konu">
+            </div>
+            <br />
+        </div>
+        <div class="col-12">
+            <div class="form-floating">
+                <label for="message">Mesaj</label>
+                <br />
+                <textarea class="form-control" placeholder="Mesajınızı buraya yazın..." id="message" asp-for="Message" style="height: 150px"></textarea>
+            </div>
+            <br />
+        </div>
+        <br />
+        <div class="col-12">
+            <button class="btn btn-primary w-100 py-3">Maili Gönder</button>
+        </div>
+    </div>
+</form>
+
