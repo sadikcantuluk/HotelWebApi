@@ -37,6 +37,7 @@ namespace HotelProject.WebUI.Controllers
             smtpClient.Authenticate("bedava452@gmail.com", "wkvjtmkqxgxuamjr");
             smtpClient.Send(mimeMessage);
             smtpClient.Disconnect(true);
+
             return View();
         }
     }

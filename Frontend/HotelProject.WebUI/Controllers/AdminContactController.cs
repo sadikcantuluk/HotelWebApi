@@ -1,7 +1,9 @@
 ﻿using HotelProject.WebUI.Dtos.ContactDto;
 using HotelProject.WebUI.Dtos.SendMessageDto;
+using HotelProject.WebUI.Models.Mail;
 using HotelProject.WebUI.Models.Staff;
 using Microsoft.AspNetCore.Mvc;
+using MimeKit;
 using Newtonsoft.Json;
 using System.Net.Http;
 using System.Text;
@@ -48,6 +50,25 @@ namespace HotelProject.WebUI.Controllers
         [HttpPost]
         public async Task<IActionResult> AddSendMessage(CreateSendMessageDto createSendMessageDto)
         {
+            MimeMessage mimeMessage = new MimeMessage();
+
+            MailboxAddress mailboxAddressFrom = new MailboxAddress("Hotelier Admin", "bedava452@gmail.com");
+            mimeMessage.From.Add(mailboxAddressFrom);
+            MailboxAddress mailboxAddressTo = new MailboxAddress(createSendMessageDto.ReceiverName, createSendMessageDto.ReceiverMail);
+            mimeMessage.To.Add(mailboxAddressTo);
+
+            var bodyBuilder = new BodyBuilder();
+            bodyBuilder.TextBody = createSendMessageDto.Content;
+            mimeMessage.Body = bodyBuilder.ToMessageBody();
+
+            mimeMessage.Subject = createSendMessageDto.Subject;
+
+            MailKit.Net.Smtp.SmtpClient smtpClient = new MailKit.Net.Smtp.SmtpClient();
+            smtpClient.Connect("smtp.gmail.com", 587, false);
+            smtpClient.Authenticate("bedava452@gmail.com", "wkvjtmkqxgxuamjr");
+            smtpClient.Send(mimeMessage);
+            smtpClient.Disconnect(true);
+
             createSendMessageDto.SenderName = "Admin";
             createSendMessageDto.SenderMail = "admin@gmail.com";
             createSendMessageDto.Date = DateTime.Parse(DateTime.Now.ToShortDateString());
@@ -61,6 +82,26 @@ namespace HotelProject.WebUI.Controllers
             }
             return View();
         }
+
+
+
+
+        //[HttpPost]
+        //public async Task<IActionResult> AddSendMessage(CreateSendMessageDto createSendMessageDto)
+        //{
+        //    createSendMessageDto.SenderName = "Admin";
+        //    createSendMessageDto.SenderMail = "admin@gmail.com";
+        //    createSendMessageDto.Date = DateTime.Parse(DateTime.Now.ToShortDateString());
+        //    var client = _httpClientFactory.CreateClient();
+        //    var jsonData = JsonConvert.SerializeObject(createSendMessageDto);
+        //    StringContent content = new StringContent(jsonData, Encoding.UTF8, "application/json");
+        //    var responseMessage = await client.PostAsync("http://localhost:5150/api/SendMessage", content);
+        //    if (responseMessage.IsSuccessStatusCode)
+        //    {
+        //        return RedirectToAction("SendBox");
+        //    }
+        //    return View();
+        //}
 
         public async Task<IActionResult> Sendbox()
         {

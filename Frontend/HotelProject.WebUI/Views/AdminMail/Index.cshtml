@@ -5,6 +5,12 @@
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+<a href="~/lib/jquery/dist/jquery.min.map"></a>
+<script src="~/lib/jquery/dist/jquery.min.js"></script>
+<script src="~/lib/jquery/dist/jquery.js"></script>
+
 <form method="post" asp-action="Index" asp-controller="AdminMail">
     <div class="row g-3">
         <div class="col-md-6">
@@ -41,8 +47,13 @@
         </div>
         <br />
         <div class="col-12">
-            <button class="btn btn-primary w-100 py-3">Maili Gönder</button>
+            <button class="btn btn-primary w-100 py-3" id="btnMail">Maili Gönder</button>
         </div>
+        <script>
+            $('#btnMail').click(function () {
+                swal("Mail başarılı bir şekilde gönderildi.");
+            })
+        </script>
     </div>
 </form>
 
