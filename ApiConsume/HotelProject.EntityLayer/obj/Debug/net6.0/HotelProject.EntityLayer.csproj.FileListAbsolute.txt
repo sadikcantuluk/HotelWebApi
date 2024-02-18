@@ -26,3 +26,4 @@ C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\HotelProject\ApiConsume\HotelPro
 C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\HotelProject\ApiConsume\HotelProject.EntityLayer\obj\Debug\net6.0\HotelProject.EntityLayer.pdb
 C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\HotelProject\ApiConsume\HotelProject.EntityLayer\obj\Debug\net6.0\HotelProject.EntityLayer.genruntimeconfig.cache
 C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\HotelProject\ApiConsume\HotelProject.EntityLayer\obj\Debug\net6.0\ref\HotelProject.EntityLayer.dll
+C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\HotelProject\ApiConsume\HotelProject.EntityLayer\obj\Debug\net6.0\HotelProject.EntityLayer.sourcelink.json

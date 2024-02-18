@@ -37,3 +37,4 @@ C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\HotelProject\JwtProject\JwtApiPr
 C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\HotelProject\JwtProject\JwtApiProject\obj\Debug\net6.0\JwtApiProject.pdb
 C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\HotelProject\JwtProject\JwtApiProject\obj\Debug\net6.0\JwtApiProject.genruntimeconfig.cache
 C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\HotelProject\JwtProject\JwtApiProject\obj\Debug\net6.0\ref\JwtApiProject.dll
+C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\HotelProject\JwtProject\JwtApiProject\obj\Debug\net6.0\JwtApiProject.sourcelink.json

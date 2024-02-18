@@ -335,3 +335,4 @@ C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\HotelProject\Frontend\HotelProje
 C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\HotelProject\Frontend\HotelProject.WebUI\bin\Debug\net6.0\MimeKit.dll
 C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\HotelProject\Frontend\HotelProject.WebUI\bin\Debug\net6.0\NETCore.MailKit.dll
 C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\HotelProject\Frontend\HotelProject.WebUI\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\HotelProject\Frontend\HotelProject.WebUI\obj\Debug\net6.0\HotelProject.WebUI.sourcelink.json

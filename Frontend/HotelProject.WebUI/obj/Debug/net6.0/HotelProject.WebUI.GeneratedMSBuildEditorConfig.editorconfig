@@ -10,6 +10,8 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = HotelProject.WebUI
 build_property.RootNamespace = HotelProject.WebUI
 build_property.ProjectDir = C:\Users\sadik\OneDrive\Masaüstü\Yeni klasör\HotelProject\Frontend\HotelProject.WebUI\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
@@ -82,6 +84,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/sadik/OneDrive/Masaüstü/Yeni klasör/HotelProject/Frontend/HotelProject.WebUI/Views/AdminRoom/UpdateRoom.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5Sb29tXFVwZGF0ZVJvb20uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/sadik/OneDrive/Masaüstü/Yeni klasör/HotelProject/Frontend/HotelProject.WebUI/Views/AppUserController1/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXBwVXNlckNvbnRyb2xsZXIxXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/sadik/OneDrive/Masaüstü/Yeni klasör/HotelProject/Frontend/HotelProject.WebUI/Views/BookingAdmin/Index.cshtml]
