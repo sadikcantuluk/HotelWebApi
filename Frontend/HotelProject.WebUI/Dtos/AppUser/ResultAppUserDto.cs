@@ -8,5 +8,6 @@
         public string Country { get; set; }
         public bool State { get; set; }
         public string Gender { get; set; }
+        public string ImageUrl { get; set; }
     }
 }

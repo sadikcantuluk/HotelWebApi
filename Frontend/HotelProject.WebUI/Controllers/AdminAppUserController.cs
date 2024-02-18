@@ -5,11 +5,11 @@ using Newtonsoft.Json;
 
 namespace HotelProject.WebUI.Controllers
 {
-    public class AppUserController1 : Controller
+    public class AdminAppUserController : Controller
     {
         private readonly IHttpClientFactory _httpClientFactory;
 
-        public AppUserController1(IHttpClientFactory httpClientFactory)
+        public AdminAppUserController(IHttpClientFactory httpClientFactory)
         {
             _httpClientFactory = httpClientFactory;
         }
