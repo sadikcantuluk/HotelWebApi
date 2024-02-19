@@ -28,6 +28,11 @@ namespace HotelProject.BusinessLayer.Concrete
            return _appUserDal.GetAll();
         }
 
+        public int TGetAppUserCount()
+        {
+            return _appUserDal.GetAppUserCount();
+        }
+
         public AppUser TGetById(int id)
         {
             throw new NotImplementedException();
