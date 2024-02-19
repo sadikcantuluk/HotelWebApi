@@ -23,5 +23,11 @@ namespace HotelProject.DataAccessLayer.EntityFramework
             item.Status = "Onaylandı";
             context.SaveChanges();
         }
+
+        public int GetBookingCount()
+        {
+            var c = new Context();
+            return c.Bookings.Count();
+        }
     }
 }

@@ -33,6 +33,11 @@ namespace HotelProject.BusinessLayer.Concrete
             return _staffDal.GetById(id);
         }
 
+        public int TGetStaffCount()
+        {
+            return _staffDal.GetStaffCount();
+        }
+
         public void TInsert(Staff entity)
         {
             _staffDal.Insert(entity);

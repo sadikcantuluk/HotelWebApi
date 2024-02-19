@@ -33,6 +33,11 @@ namespace HotelProject.BusinessLayer.Concrete
             return _bookingDal.GetAll();
         }
 
+        public int TGetBookingCount()
+        {
+            return _bookingDal.GetBookingCount();
+        }
+
         public Booking TGetById(int id)
         {
             return _bookingDal.GetById(id);
